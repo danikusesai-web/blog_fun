@@ -1,0 +1,31 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+media/
+staticfiles/
+
+# Database
+*.sqlite3
+*.db
+
+# Environment
+.env
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Deployment
+.coverage
+htmlcov/

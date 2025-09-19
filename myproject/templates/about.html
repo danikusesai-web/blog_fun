@@ -1,0 +1,34 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    About
+{% endblock %}
+
+{% block content %}
+    <h3>About us</h1>
+    <div class="line"></div>
+    <br>
+
+    <small>We are Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Reiciendis ea eos earum facilis accusantium cumque minima consequuntur 
+        sit sequi quaerat.
+    </small>
+    <div class="line"></div>
+    <br>
+
+    <div>
+        <h1>What you can do?</h1>
+
+        <li>
+            <ul>- Read poeple's post.</ul>
+            <ul>- Make your own posts.</ul>
+            <ul>- Add images to your posts.</ul>
+        </li>
+    </div>
+    <div class="line"></div>
+    <br>
+
+    <h5>Check out our blogs here- <a href="{% url 'posts:list' %}">Click here</a></h5>
+    <div class="line"></div>
+
+{% endblock %}
